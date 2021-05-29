@@ -5,11 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './product-mangement.component.html',
   styleUrls: ['./product-mangement.component.css']
 })
-export class ProductMangementComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class ProductMangementComponent{
+  products=[1,2,3,4,5,6]
 
 }

@@ -30,6 +30,7 @@ import { UserRegestrationComponent } from './user-regestration/user-regestration
 import { UserListComponent } from './user-list/user-list.component';
 import { ProductMangementComponent } from './product-mangement/product-mangement.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { FooterComponent } from './footer/footer.component';
     UserRegestrationComponent,
     UserListComponent,
     ProductMangementComponent,
-    FooterComponent
+    FooterComponent,
+    ProductdetailsComponent
   ],
   imports: [
     BrowserModule,
