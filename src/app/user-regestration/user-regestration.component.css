@@ -1,0 +1,20 @@
+.form-control{
+    border:none;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+}
+
+#ngForm{
+  display:flex;
+  justify-content: center;
+  box-sizing: content-box; 
+}
+.btn{
+ background-color: rgb(231, 116, 183);
+}
+
+h1{
+    background-color: rgb(35, 78, 53);
+    color: blanchedalmond;
+    
+}

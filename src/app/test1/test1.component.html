@@ -1,0 +1,7 @@
+<h1 class="text-center text-info">test1 component</h1>
+    <div class="form-group">
+        <label for="data"> Enter data</label>
+        <input type="text" name="data" id="data" class="form-control" #ref><br>
+    </div>
+<button class="btn btn-warning mx-auto" (click)="sendDataToParent(ref.value)">send to parent</button><br>
+<h3>data received from parent is {{v}}</h3>
