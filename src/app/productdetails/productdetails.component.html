@@ -1,8 +1,8 @@
 <div class="card h-100 shadow" >
-    <img class="card-img-top w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv-p1MCxsGjG3HdVQbFbHgOmAY_ZV2UeUOXQ&usqp=CAU" alt="Card image cap">
+    <img class="card-img-top w-100" src={{productObj.productImage}} alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h5 class="card-title">{{productObj.ProductTitle}}</h5>
+      <p class="card-text">{{productObj.description}}</p>
+      <button href="#" class="btn btn-primary" (click)="sendProductDetailsToParent(productObj.ProductTitle)"><i class="fas fa-plus"></i>Add to Cart</button>
     </div>
   </div>
